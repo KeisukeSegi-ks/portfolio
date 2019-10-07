@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	-ms-text-size-adjust: none;
+	-webkit-text-size-adjust: none; 
+	margin: 0; 
+	padding: 0;
+}
+a{
+	color: #ffffff;
+	display: block;
+	text-decoration: none;
+	text-align: left;
+	letter-spacing: 2px;
+	transition: color 0.5s ease 0s;
+}
+/* ボタンのスタイル */
+.bg-change {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    line-height: 50px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+	font-family: Helvetica, Arial, "sans-serif";
+	font-size: 25px;
+	font-weight: 600;
+	
+}
+.bg-change.no1 {
+    right: 84%;
+	margin-top: 10%;
+	width: 180px;
+    height: 50px;
+}
+.bg-change.no2 {
+    right: 84%;
+	margin-top: 17%;
+	width: 180px;
+    height: 50px;
+}
+.bg-change.no3 {
+  	right: 86%;
+	margin-top: 24%;
+	width: 150px;
+    height: 50px;
+}
+.bg-change.no4 {
+    right: 90%;
+	margin-top: 31%;
+	width: 90px;
+    height: 50px;
+}
+.bg-change.no5 {
+    right: 86%;
+	margin-top: 38%;
+	width: 150px;
+    height: 50px;
+}
+/* コンテンツのスタイル */
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+.contents {
+    height: 100vh;
+    background-image: url("../pic/top.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ボタンホバー時のスタイル */
+.bg-change.no1:hover ~ .wrapper .contents {
+    background-image: url("../pic/About_me.png");
+}
+.bg-change.no2:hover ~ .wrapper .contents {
+    background-image: url("../pic/LabBase_X.png");
+}
+.bg-change.no3:hover ~ .wrapper .contents {
+    background-image: url("../pic/Tapitapi.png");
+}
+.bg-change.no4:hover ~ .wrapper .contents {
+    background-image: url("../pic/Lightning_Talk.png");
+}
+.bg-change.no5:hover ~ .wrapper .contents {
+    background-image: url("../pic/Blog.png");
+}
