@@ -86,5 +86,5 @@ a{
     background-image: url("../pic/Lightning_Talk.png");
 }
 .bg-change.no5:hover ~ .wrapper .contents {
-    background-image: url("../pic/Blog.png");
+    background-image: url("../pic/BLOG.png");
 }
